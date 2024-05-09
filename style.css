@@ -1,16 +1,30 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
+}
+
+body :not(.logo) {
+  font-family: 'Roboto', sans-serif;
+}
 
   
   .logo {
-   
     color: black;
+    font-family: Raleway;
   }
   
   .logo span {
-    color: blue;
+    color: rgb(56, 158, 226); 
   }
   
- 
-  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }
   a:hover:not(.logo,.logo2) {
     color: rgb(56, 158, 226); 
   }
