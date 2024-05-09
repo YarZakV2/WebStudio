@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
+  }
 
+  body :not(.logo) {
+    font-family: 'Roboto', sans-serif;
+  }
 
 .logo {
 color: black;
+font-family: Raleway;
 }
 
 .logo span {
