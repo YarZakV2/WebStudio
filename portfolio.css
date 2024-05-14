@@ -17,20 +17,35 @@ font-family: Raleway;
 }
 
 .logo span {
-    color: rgb(56, 158, 226); 
+    color:#2196F3 
 }
 a {
-    text-decoration: none;
-    color: inherit; 
+  text-decoration: none; 
+  color: inherit; 
+}
+
+
+footer {
+  
+  background: #2F303A;
+}
+
+.logo2 {
+  font-family: Raleway;
+  color: white;
+}
+
+.logo2 span {
+  color:#2196F3
 }
 
 
 .address-text {
-color: white;
+  color: white;
 
 }
 
 .contact-link {
-color: gray;
+  color: gray;
 
 }

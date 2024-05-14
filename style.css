@@ -18,7 +18,7 @@ body :not(.logo) {
   }
   
   .logo span {
-    color: rgb(56, 158, 226); 
+    color:#2196F3
   }
   
   a {
@@ -85,12 +85,12 @@ body :not(.logo) {
   }
   
   .logo2 {
-    
+    font-family: Raleway;
     color: white;
   }
   
   .logo2 span {
-    color: blue;
+    color:#2196F3
   }
   
 
