@@ -74,8 +74,12 @@ body :not(.logo) {
     
   }
 
+  .team h3{  
+font-size: 16px;
+font-weight: 500;
+  }
+
   .team p {
-   
     color: #757575;
   }
   
