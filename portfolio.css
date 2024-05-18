@@ -7,12 +7,13 @@
     src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
   }
 
-body :not(.logo) {
+  body :not(.logo):not(.logo2) {
     font-family: 'Roboto', sans-serif;
 }
 
 .logo {
 color: black;
+font-weight: 700;
 font-family: Raleway;
 }
 
@@ -24,6 +25,16 @@ a {
   color: inherit; 
 }
 
+button{
+  color: #212121;
+  background-color: #F5F4FA;
+}
+.projects h3{
+  font-size: 18px;
+}
+
+
+
 
 footer {
   
@@ -32,6 +43,7 @@ footer {
 
 .logo2 {
   font-family: Raleway;
+  font-weight: 700;
   color: white;
 }
 
@@ -46,6 +58,6 @@ footer {
 }
 
 .contact-link {
-  color: gray;
+ color:  #FFFFFF60;
 
 }
