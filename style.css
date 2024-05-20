@@ -16,6 +16,7 @@ body :not(.logo):not(.logo2) {
     color: black;
     font-family: Raleway;
     font-weight: 700;
+    font-size: 26px;
   }
   
   .logo span {
@@ -42,6 +43,7 @@ body :not(.logo):not(.logo2) {
   
   .content button {
     background: #2196F3;
+    font-size: 16px;
     box-shadow: 0px 4px 4px 0px #00000026;
     color: white; 
  
@@ -103,6 +105,7 @@ font-weight: 500;
   .logo2 {
     font-family: Raleway;
     font-weight: 700;
+    font-size: 26px;
     color: white;
   }
   

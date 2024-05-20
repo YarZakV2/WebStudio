@@ -14,6 +14,7 @@
 .logo {
 color: black;
 font-weight: 700;
+font-size: 26px;
 font-family: Raleway;
 }
 
@@ -28,13 +29,16 @@ a {
 button{
   color: #212121;
   background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+
 }
 .projects h3{
   font-size: 18px;
 }
-
-
-
+.projects p{
+ color: #757575;
+}
 
 footer {
   
@@ -44,6 +48,7 @@ footer {
 .logo2 {
   font-family: Raleway;
   font-weight: 700;
+  font-size: 26px;
   color: white;
 }
 
