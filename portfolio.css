@@ -55,6 +55,11 @@ body {
   letter-spacing: 0.28px;
   }
 
+.nav-link:hover,
+.header-link:hover {
+  color: var(--accent-color);
+}
+
   
 .card-btn{
   color: var(--text-color);
@@ -64,6 +69,11 @@ line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: center;
 }
+
+.card-btn:hover {
+  background-color:var(--accent-color);
+}
+
 
 .project-title{
 color: var(--text-color);

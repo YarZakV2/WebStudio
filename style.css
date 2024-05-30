@@ -51,12 +51,18 @@ letter-spacing: 0.28px;
 }
 
 
+
 .header-link{
   color: var(--additional-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+}
+
+.nav-link:hover,
+.header-link:hover {
+  color: var(--accent-color);
 }
 
 
