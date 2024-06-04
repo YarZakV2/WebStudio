@@ -6,16 +6,7 @@
   font-family: 'Raleway';
   src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
 }
-:root{
-  --logo-color:#000;
-  --text-color:#212121;
-  --accent-color:#2196F3;
-  --additional-color:#757575;
-  --footer-namber-color:rgba(255, 255, 255, 0.6);
-  --main-background:#FFF;
-  --footer-background:#2F303A;
 
-}
 body {
   font-family: 'Roboto', sans-serif;
 }

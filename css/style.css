@@ -7,17 +7,6 @@
   src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
 }
 
-:root{
-  --accent-color:#2196F3;
-  --logo-color:#000;
-  --text-color:#212121;
-  --additional-color:#757575;
-  --footer-namber-color:rgba(255, 255, 255, 0.6);
-  --footer-background:#2F303A;
-  --team-background:#F5F4FA;
-  --main-background:#FFF;
-
-}
 
 body {
   font-family: 'Roboto', sans-serif;
