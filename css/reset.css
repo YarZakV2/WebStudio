@@ -1,9 +1,43 @@
-a{
-  text-decoration: none;
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+img,
+button,
+nav,
+span,
+address,
+footer,
+header,
+section,
+main,
+div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	list-style: none;
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
