@@ -64,6 +64,7 @@ body {
 
 .card-btn:hover {
 	background-color: var(--accent-color);
+	color: var(--main-background);
 }
 
 .project-title {
