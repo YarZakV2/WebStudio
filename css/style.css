@@ -183,6 +183,9 @@ flex-shrink: 0;
 	display: flex;
 	gap: 30px;
 }
+.team-item{
+background-color: var(--main-background);
+}
 .team-img{
 width: 270px;
 height: 260px;
