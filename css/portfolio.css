@@ -109,6 +109,9 @@ height: 294px;
 flex-shrink: 0;
 margin-bottom: 20px;
 }
+.project-item{
+	background: url(img/port1) lightgray 50% / cover no-repeat;
+}
 .project-list{
 	display: flex;
 	flex-wrap: wrap;
@@ -149,7 +152,7 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
-	
+	margin-bottom: 20px;
    
 }
 
