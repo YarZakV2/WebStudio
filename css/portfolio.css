@@ -38,11 +38,13 @@ header {
 	line-height: 1.38;
 	letter-spacing: 0.78px;
 }
+.header-nav{
+	margin-left: 93px ;
+}
 
 .nav-list{
 	display: flex;
 	gap: 50px;
-	margin-left: 93px;
 }
 
 .nav-link {
@@ -56,7 +58,7 @@ header {
 .header-list{
 	display: flex;
 	gap: 50px;
-	margin-left: 344px;
+	margin-left: auto;
 
 }
 
@@ -108,9 +110,6 @@ width: 370px;
 height: 294px;
 flex-shrink: 0;
 margin-bottom: 20px;
-}
-.project-item{
-	background: url(img/port1) lightgray 50% / cover no-repeat;
 }
 .project-list{
 	display: flex;
