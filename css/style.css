@@ -40,10 +40,13 @@ header {
 	letter-spacing: 0.78px;
 }
 
+.header-nav{
+	margin-left: 93px ;
+}
+
 .nav-list{
 	display: flex;
 	gap: 50px;
-	margin-left: 93px;
 }
 
 .nav-link {
@@ -57,7 +60,7 @@ header {
 .header-list{
 	display: flex;
 	gap: 50px;
-	margin-left: 344px;
+	margin-left: auto;
 
 }
 
@@ -90,12 +93,15 @@ header {
 .hero-title {
 	color: var(--main-background);
 	font-size: 44px;
+	width: 696px;
 	font-weight: 900;
 	line-height: 1.36;
 	letter-spacing: 2.64px;
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
 	
 	
 }
@@ -128,6 +134,7 @@ header {
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -188,9 +195,11 @@ background-color: var(--main-background);
 }
 .team-img{
 width: 270px;
-height: 260px;
 flex-shrink: 0;
-margin-bottom: 30px;
+}
+.team-box{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .team-capitan {
 	color: var(--text-color);
@@ -228,7 +237,7 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
-	margin-bottom: 20px;
+	
    
 }
 
@@ -240,6 +249,9 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
+.address{
+	margin-top: 20px;
+}
 .address-link {
     color: var(--main-background);
     font-size: 14px;
@@ -247,12 +259,15 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    margin-bottom: 9px;
 	border-top: 20px;
+	margin-bottom: 9px;
+
 
 }
 
-
+.footer-item{
+margin-top: 9px;
+}
 
 .footer-link {
     color: var(--footer-namber-color);
@@ -261,7 +276,7 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-	gap: 9px;
+	
 
 }
     
