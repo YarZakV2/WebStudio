@@ -151,7 +151,7 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
-	margin-bottom: 20px;
+	
    
 }
 
@@ -163,6 +163,9 @@ footer {
     line-height: 1.38;
     letter-spacing: 0.78px;
 }
+.address{
+	margin-top: 20px;
+}
 .address-link {
     color: var(--main-background);
     font-size: 14px;
@@ -170,12 +173,15 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    margin-bottom: 9px;
 	border-top: 20px;
+	margin-bottom: 9px;
+
 
 }
 
-
+.footer-item{
+margin-top: 9px;
+}
 
 .footer-link {
     color: var(--footer-namber-color);
@@ -184,7 +190,10 @@ footer {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-	gap: 9px;
+	
 
 }
+    
+
+
     
