@@ -88,6 +88,7 @@ header {
 	display: flex;
 	gap: 8px;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 .card-btn {
 	color: var(--text-color);
@@ -97,7 +98,7 @@ header {
 	letter-spacing: 0.03em;
 	text-align: center;
 	padding: 6px 22px;
-	margin-bottom: 50px;
+
 }
 
 .card-btn:hover {
@@ -105,17 +106,26 @@ header {
 	color: var(--main-background);
 }
 
-.project-img{
-width: 370px;
-height: 294px;
-flex-shrink: 0;
-margin-bottom: 20px;
-}
 .project-list{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
+
+.project-img{
+width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+
+.project-box{
+	padding-top: 20px;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-bottom: 20px;
+
+}
+
 .project-title {
 	color: var(--text-color);
 	font-size: 18px;
@@ -132,7 +142,6 @@ margin-bottom: 20px;
 	line-height: 1.8;
 	letter-spacing: 0.03em;
 	text-align: left;
-	margin-bottom: 20px;
 }
 
 /*footer*/
