@@ -106,16 +106,23 @@ header {
 	color: var(--main-background);
 }
 
+
+
 .project-list{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 
+.project-item{
+	flex-basis: calc((100% - 60px) / 3);
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
 .project-img{
-width: 370px;
-height: 294px;
-flex-shrink: 0;
+width: 100%;
+
 }
 
 .project-box{
