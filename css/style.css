@@ -130,7 +130,7 @@ header {
 .advantages-item::before {
 	display: flex;
 	justify-content: center;
-	
+	align-items: center;
 	margin-bottom: 30px; 
 	top: -55px;
 	background-color: var(--team-background); 
