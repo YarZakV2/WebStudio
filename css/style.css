@@ -73,6 +73,10 @@ header {
   color: var(--accent-color);
 }
 
+.nav-link.active {
+  color: var(--accent-color);
+}
+
 /*hero*/
 .hero {
   background-color: var(--footer-background);
@@ -114,6 +118,7 @@ header {
   padding: 10px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 /*advantages*/
