@@ -159,6 +159,10 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-list-box {
+  display: flex;
+  gap: 70px;
+}
 
 .footer-logo {
   color: var(--main-background);
@@ -203,4 +207,37 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+}
+.footer-title {
+  color: var(--main-background);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-list-svg {
+  display: flex;
+  gap: 10px;
+}
+.footer-svg-link:hover .footer-svg {
+  fill: var(--main-background);
+}
+
+.footer-svg-box {
+  background-color: var(--second-svg-color);
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-svg-box:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--main-background);
 }

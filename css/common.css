@@ -1,11 +1,12 @@
-:root{
-    --accent-color:#2196F3;
-    --logo-color:#000;
-    --text-color:#212121;
-    --additional-color:#757575;
-    --footer-namber-color:rgba(255, 255, 255, 0.6);
-    --footer-background:#2F303A;
-    --team-background:#F5F4FA;
-    --main-background:#FFF;
-  
-  }
+:root {
+  --accent-color: #2196f3;
+  --logo-color: #000;
+  --text-color: #212121;
+  --additional-color: #757575;
+  --footer-namber-color: rgba(255, 255, 255, 0.6);
+  --footer-background: #2f303a;
+  --team-background: #f5f4fa;
+  --main-background: #fff;
+  --svg-color: rgba(117, 117, 117, 1);
+  --second-svg-color: rgba(255, 255, 255, 0.1);
+}
