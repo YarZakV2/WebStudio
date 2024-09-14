@@ -9,7 +9,6 @@ header {
 
 .container {
   width: 1200px;
-
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -58,7 +57,22 @@ header {
   gap: 50px;
   margin-left: auto;
 }
-
+.header-item {
+  display: flex;
+  align-items: center;
+}
+.header-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--additional-color);
+}
+.header-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--additional-color);
+}
 .header-link {
   color: var(--additional-color);
   font-size: 14px;
@@ -72,7 +86,9 @@ header {
 .header-link:hover {
   color: var(--accent-color);
 }
-
+.header-link:hover svg {
+  fill: var(--accent-color);
+}
 .nav-link.active {
   color: var(--accent-color);
 }
