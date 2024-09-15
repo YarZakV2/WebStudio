@@ -58,10 +58,7 @@ header {
   gap: 50px;
   margin-left: auto;
 }
-.header-item {
-  display: flex;
-  align-items: center;
-}
+
 .header-mail {
   width: 16px;
   height: 12px;
@@ -81,7 +78,8 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
-  gap: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-link:hover,
