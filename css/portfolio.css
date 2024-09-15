@@ -79,7 +79,8 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
-  gap: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-link:hover,
