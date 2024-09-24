@@ -105,6 +105,7 @@ header {
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/hero.jpg);
+  background-repeat: no-repeat;
 }
 .hero-box {
   position: relative;
@@ -280,15 +281,20 @@ header {
 .team-svg-link:hover .team-svg {
   fill: var(--main-background);
 }
-
-.team-svg-box {
+.team-svg-link {
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  padding: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.team-svg-box:hover {
+
+.team-svg-link svg {
+  vertical-align: middle;
+}
+
+.team-svg-link:hover {
   background-color: var(--accent-color);
 }
 
@@ -394,23 +400,26 @@ footer {
 }
 .footer-list-svg {
   display: flex;
+  justify-content: center;
   gap: 10px;
+  margin-bottom: 30px;
+}
+.footer-svg-link{
+  background-color: var(--second-svg-color);
+  border-radius: 50%;
+width: 44px;
+height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-svg-link:hover .footer-svg {
   fill: var(--main-background);
 }
-
-.footer-svg-box {
-  background-color: var(--second-svg-color);
-  border-radius: 50%;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-}
-
-.footer-svg-box:hover {
+.footer-svg-link:hover {
   background-color: var(--accent-color);
 }
+
 
 .footer-svg {
   width: 20px;
