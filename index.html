@@ -69,7 +69,7 @@
 			<section class="hero">
 				<div class="container hero-box">
 				<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-				<button type="button" class="hero-btn">Замовити послугу</button>
+				<button type="button" class="hero-btn" data-modal-open>Замовити послугу </button>
 			</section>
 		</div>
 			<section class="advantages">
@@ -321,29 +321,23 @@
 								</li>
 								<li class="team-svg-item">
 									<a href="#" class="team-svg-link">
-										<div class="team-svg-box">
 											<svg class="team-svg">
 												<use href="./img/symbol-defs.svg#icon-twitter"></use>
 											</svg>
-										</div>
 									</a>
 								</li>
 								<li class="team-svg-item">
 									<a href="#" class="team-svg-link">
-										<div class="team-svg-box">
 											<svg class="team-svg">
 												<use href="./img/symbol-defs.svg#icon-facebook"></use>
 											</svg>
-										</div>
 									</a>
 								</li>
 								<li class="team-svg-item">
 									<a href="#" class="team-svg-link">
-										<div class="team-svg-box">
 											<svg class="team-svg">
 												<use href="./img/symbol-defs.svg#icon-linkedin"></use>
 											</svg>
-										</div>
 									</a>
 								</li>
 							</ul>
@@ -359,35 +353,48 @@
 				</h2>
 				<ul class="clients-list">
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-1"></use>
 							</svg>
+						</a>
 
 					</li>
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-2"></use>
 							</svg>
+						</a>
+
 					</li>
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-3"></use>
 							</svg>
+						</a>
 					</li>
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-4"></use>
 							</svg>
+						</a>
 					</li>
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-5"></use>
 							</svg>
+						</a>
 					</li>
 					<li class="clients-item">
+						<a href="#" class="clients-svg-link">
 							<svg class="clients-svg">
 								<use href="./img/symbol-defs.svg#icon-Logo-6"></use>
 							</svg>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -448,9 +455,58 @@
 					</li>
 				</ul>
 			</li>
-			</ul>
+			<li class="footer-list-box-item">
+			<form class="footer-form">
+				<h3 class="form-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+				<div class="footer-form-box">
+				<input type="email" class="footer-input" placeholder="E-mail">
+				
+			<button class="form-button">
+				Підписатися 
+			<svg class="form-btn-svg">
+				<use href="./img/symbol-defs.svg#icon-send"></use>
+			</svg>
+		</button>
+	</div>
+			</form>
+		</li>
+		</ul>
     </div>
 </footer>
+<div class="backdrop is-hidden"data-modal>
+	<div class="modal">
+		<form class="modal-form">
+			<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+			<label for="name" class="modal-label">Ім'я</label>
+			<input type="text" id="name" class="modal-input">
+			<svg class="modal-svg modal-svg-person">
+				<use href="./img/symbol-defs.svg#icon-person"></use>
+			</svg>
+			<label for="phone" class="modal-label">Телефон</label>
+			<input type="tel" id="phone" class="modal-input">
+			<svg class="modal-svg modal-svg-phone">
+				<use href="./img/symbol-defs.svg#icon-phone"></use>
+			</svg>
+			<label for="mail" class="modal-label">Пошта</label>
+			<input type="email" id="mail" class="modal-input">
+			<svg class="modal-svg modal-svg-email">
+				<use href="./img/symbol-defs.svg#icon-email"></use>
+			</svg>
+			<label for="com" class="modal-label">Коментар</label>
+			<textarea name="" id="com" class="modal-com" placeholder="Введіть текст"></textarea>
 
+			<label class="modal-check">
+				<input type="checkbox" class="modal-checkinput">
+			<span class="modal-span">Погоджуюся з розсилкою та приймаю</span>
+			<a href="#" class="modal-link">Умови договору</a>
+			</label>
+			<button type="submit" class="modal-btn">Відправити</button>
+		</form>
+		<button type="button" class="btn-close" data-modal-close>
+			<svg class="close">
+				<use href="./img/symbol-defs.svg#icon-close"></use>
+			</svg>
+		</button>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
