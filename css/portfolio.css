@@ -45,7 +45,16 @@ header {
   gap: 50px;
 }
 .nav-link {
-  position: relative; 
+  position: relative;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
@@ -58,22 +67,13 @@ header {
   position: absolute;
   bottom: -34px;
   left: 0;
-  opacity: 0; 
-  transition: opacity 0.3s ease; 
+  opacity: 0;
 }
 .nav-link:hover::after,
-.nav-link:focus::after { 
-  opacity: 1; 
+.nav-link:focus::after {
+  opacity: 1;
 }
 
-
-.nav-link {
-  color: var(--text-color);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.28px;
-}
 .header-list {
   display: flex;
   gap: 50px;
@@ -103,8 +103,16 @@ header {
   letter-spacing: 0.28px;
   display: flex;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.header-mail,
+.header-phone{
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .nav-link:hover,
 .nav-link:focus,
 .header-link:hover,
@@ -142,6 +150,9 @@ header {
   cursor: pointer;
   border: none;
   outline: none;
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-btn:hover {
@@ -168,6 +179,9 @@ header {
   border: 1px solid #ccc;
   background: #fff;
   cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-item:hover {
@@ -189,15 +203,18 @@ header {
   height: 100%;
   padding: 63px 24px;
   opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .project-item:hover {
   .project-overlay {
     opacity: 1;
     background-color: rgba(33, 150, 243, 0.9);
   }
 }
-.overlay-text{
-  color:var(--main-background);
+.overlay-text {
+  color: var(--main-background);
   width: 322px;
   font-size: 18px;
   font-weight: 400;
@@ -310,6 +327,9 @@ footer {
   justify-content: center;
   align-items: center;
   outline: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-link:hover {
